@@ -76,31 +76,31 @@ let onglet1=Vue.component('onglet1',
 	}
 })
 
-let slide_1=Vue.component('slide_2',
+let slide_1=Vue.component('slide_1',
 {
 	template:
 	`
-		<div class="slide2_content">
+		<div class="slide1_content">
 			<h1>Welcome to Travel!</h1>
 		</div>	
 	`
 })
 
 
-let slide_2=Vue.component('slide_3',
+let slide_2=Vue.component('slide_2',
 {
 	template:
 	`
-		<div class="slide3_content">
+		<div class="slide2_content">
 			<h1>Slide 2</h1>
 		</div>	
 	`
 })
-let slide_3=Vue.component('slide_1',
+let slide_3=Vue.component('slide_3',
 {
 	template:
 	`
-		<div class="slide1_content">
+		<div class="slide3_content">
 			<h1>Slide 3</h1>
 			<h3>Example 1</h3>
 			<h4>Example 2</h4>
