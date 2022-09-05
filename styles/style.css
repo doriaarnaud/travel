@@ -43,6 +43,8 @@
 #app .home .header_home
 {
 	background-image: url('../images/bg.jpg');
+	background-repeat:repeat;
+	width:100%;
 	height: 500px;
 }
 .home .header_home_content
