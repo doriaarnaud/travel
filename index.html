@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<html lang="eng">
+		<meta charset="utf-8">
+		<title>Travel</title>
+		<link rel="stylesheet" href="./styles/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="keywords" content=""> 
+	</head>
+	<body>
+	<div id="app">
+		<div class="header">
+			<div class="header_content">
+				<div class="titre">
+					<h1>Travel</h1>
+				</div>
+				<div class="navigation">
+					<ul>
+						<router-link to='/'>
+							<li>HOME</li>
+						</router-link>
+						<router-link to='/plan'>
+							<li>PLAN</li>
+						</router-link>
+						<router-link to='/information'>
+							<li>INFORMATION</li>
+						</router-link>
+						<router-link to='/checkin'>
+							<li>CHECK-IN & BOOKINGS</li>
+						</router-link>
+						<router-link to='/signin'>
+							<li>SIGN-IN</li>
+						</router-link>
+						<router-link to='/language'>
+							<li>ENGLISH</li>
+						</router-link>
+					</ul>		
+				</div>
+			</div>
+		</div>
+		<router-view></router-view>
+	</div>	 
 
+	
+
+	<script type="text/javascript" src="scripts/vue.js"></script>
+	<script type="text/javascript" src="scripts/vue-cookies.js"></script>
+	<script type="text/javascript" src="scripts/vue-router.js"></script>
+	<script type="text/javascript" src="scripts/vueSC.js"></script>
+	</body>
+</html>
